@@ -1,0 +1,90 @@
+{
+  "UUID": "com.node.sdk.samples",
+  "Name": "Node.js SDK",
+  "Author": "fcannizzaro",
+  "Description": "Sample plugin created with Node.js using elgato-stream-deck-sdk",
+  "Icon": "./icons/pluginIcon",
+  "Version": "1.0.0",
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "5.0"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Category": "Node.js SDK",
+  "CategoryIcon": "icons/category",
+  "Actions": [
+    {
+      "Icon": "icons/actionIcon",
+      "Name": "Sample Action",
+      "States": [
+        {
+          "Image": "icons/actionState"
+        }
+      ],
+      "Tooltip": "Sample Action",
+      "UUID": "com.node.sdk.samples.sample-action"
+    },
+    {
+      "Icon": "icons/actionIcon",
+      "Name": "Basic Action",
+      "States": [
+        {
+          "Image": "icons/actionState"
+        }
+      ],
+      "Tooltip": "Basic Action",
+      "UUID": "com.node.sdk.samples.basic"
+    },
+    {
+      "Icon": "icons/actionIcon",
+      "Name": "Counters Action",
+      "States": [
+        {
+          "Image": "icons/actionState"
+        }
+      ],
+      "Tooltip": "Counters Action",
+      "UUID": "com.node.sdk.samples.counters"
+    },
+    {
+      "Icon": "icons/actionIcon",
+      "Name": "IO Action",
+      "States": [
+        {
+          "Image": "icons/actionState"
+        }
+      ],
+      "Tooltip": "IO Action",
+      "UUID": "com.node.sdk.samples.io"
+    },
+    {
+      "Icon": "icons/actionIcon",
+      "Name": "Instances Action",
+      "States": [
+        {
+          "Image": "icons/actionState"
+        }
+      ],
+      "Tooltip": "Instances Action",
+      "UUID": "com.node.sdk.samples.instances"
+    },
+    {
+      "Icon": "icons/actionIcon",
+      "Name": "Settings Action",
+      "States": [
+        {
+          "Image": "icons/actionState"
+        }
+      ],
+      "Tooltip": "Settings Action",
+      "UUID": "com.node.sdk.samples.settings"
+    }
+  ],
+  "CodePathWin": "com.node.sdk.samples.exe",
+  "CodePathMac": "com.node.sdk.samples"
+}
